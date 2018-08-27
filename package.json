@@ -1,0 +1,18 @@
+{
+  "name": "group_chat",
+  "version": "1.0.0",
+  "description": "Week 3 - Express\r Assignment: Group Chat\r Create a simple app where multiple people can go to your nodeJS app and start chatting with each other. You could connect to your web app from multiple browsers (one from Safari, one from Firefox, one from Chrome for example) to mimic multiple people visiting your site. Use javascript 'prompt' to get the user's name. Your chat board should update in real time and even show all the chats that occurred before the user joined the room.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  }
+}

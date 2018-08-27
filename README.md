@@ -1,0 +1,1 @@
+A simple app where multiple people can chat with each other. Connect to web app from multiple browsers. Enter username upon entering chatroom. Updates in real time and alerts when users enter or leave a room.

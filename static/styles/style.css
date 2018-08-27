@@ -1,0 +1,139 @@
+body {
+  background-color: #303030;
+  color: white;
+}
+.container-fluid {
+  display: none;
+  padding: 25px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 5px;
+  text-align: center;
+  text-shadow: -0.5px -0.5px 0 #01c3e9, 0.5px -0.5px 0 #01c3e9,
+    -0.5px 0.5px 0 #01c3e9, 0.5px 0.5px 0 #01c3e9;
+}
+h2 {
+  text-align: left;
+}
+h3 {
+  font-style: italic;
+  text-shadow: -0.5px -0.5px 0 #5cb85c, 0.5px -0.5px 0 #5cb85c,
+    -0.5px 0.5px 0 #5cb85c, 0.5px 0.5px 0 #5cb85c;
+}
+h4 {
+  text-shadow: none;
+}
+.chats {
+  display: inline-block;
+  width: 65%;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.chat {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #01c3e9;
+  margin: 5px 35px 5px 10px;
+  color: black;
+}
+.my-chat {
+  padding: 10px;
+  background-color: #252525;
+  border-radius: 10px;
+  border: 1px solid #01c3e9;
+  text-align: right;
+  margin: 5px 10px 5px 35px;
+  color: white;
+}
+.chat p {
+  margin: 0;
+}
+.chat p:nth-of-type(1) {
+  color: #016a7f;
+}
+.my-chat p:nth-of-type(1) {
+  color: #01c3e9;
+}
+.spacer {
+  margin: 0px 10px;
+}
+.users {
+  width: 30%;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+  border: 3px double #01c3e9;
+  border-radius: 10px;
+}
+.users ul {
+  overflow-y: scroll;
+  max-height: 150px;
+}
+ul::-webkit-scrollbar,
+.chats::-webkit-scrollbar {
+  background-color: #e6fbff;
+  width: 15px;
+  border-radius: 10px;
+}
+ul::-webkit-scrollbar-track,
+.chats::-webkit-scrollbar-track {
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px grey;
+}
+ul::-webkit-scrollbar-thumb,
+.chats::-webkit-scrollbar-thumb {
+  background-color: #01c3e9;
+  border: 1px solid #016a7f;
+  border-radius: 10px;
+}
+.users ul li {
+  list-style-type: none;
+}
+@media (max-width: 500px) {
+  .users {
+    display: none;
+  }
+}
+input {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+::placeholder {
+  font-style: italic;
+  color: #016a7f;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-style: italic;
+  color: #016a7f;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-style: italic;
+  color: #016a7f;
+}
+input[type='submit'] {
+  width: 100px;
+  padding: 5px;
+  background-color: #016a7f;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #016a7f;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px #ffffff;
+  margin-left: 5px;
+}
+footer {
+  display: inline-block;
+}
+img.footer-logo {
+  width: 3%;
+  margin-right: 5px;
+}
